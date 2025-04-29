@@ -6,17 +6,14 @@ from langchain_groq import ChatGroq
 
 app = Flask(__name__)
 
-# Directly assign the API key
-groq_api_key = "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"
+groq_api_key = "Paste Your API Key"
 
-# Set up LLM
 llm_grok = ChatGroq(
     api_key=groq_api_key,
     model_name='llama3-8b-8192',
     temperature=0.7
 )
 
-# Prompt Template
 template = """
 You are an expert summarizer. Read the following text carefully and write a clear, concise, and informative summary. 
 Focus on the main ideas, key points, and important details. 

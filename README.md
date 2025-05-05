@@ -111,6 +111,6 @@ The summarization prompt is engineered to:
 ## 👩‍💻 Author
 
 **Sadia Eman**  
-BS Data Science | BS Data Science Student at Superior University
+BS Data Science |  Superior University
 
 ---
